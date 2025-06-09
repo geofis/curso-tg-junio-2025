@@ -1,0 +1,51 @@
+---
+title: "Recapitulando"
+subtitle: "Métodos de análisis espacial por computador"
+author: "José Martínez"
+institute: "Universidad Autónoma de Santo Domingo (UASD)"
+date: "Updated: `r Sys.Date()`"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+class: center, middle
+background-image: url(img/fondo.jpg)
+
+# Recapitulando
+### *José Martínez*
+### Universidad Autónoma de Santo Domingo (UASD)
+
+---
+
+# ¿Qué vimos?
+
+---
+
+# ¿Qué nos faltó?
+
+- QGIS:
+    - Aprender a usar la consola Python.
+    - Explotar la "Caja de herramientas de Procesos".
+    - Geoproceso, por ejemplo, intersectar.
+    - Profundizar en la edición de capas.
+- R:
+    - Profundizar en Tidyverse, especialmente en ggplot2.
+    - Crear una función.
+    - Modelización espacial.
+    - Más geoestadística.
+- Python:
+    - Básicamente, todo.
+    - Aplicar algoritmos de redes neuronales, e.g. U-Net.
+- Google Earth Engine:
+    - Obtener más fuentes de diversos tipos.
+    - Preprocesar más en EE.
+    - Spatial binning.
