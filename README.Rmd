@@ -1,5 +1,6 @@
 ---
-title: "Métodos de análisis espacial por computador"
+title: "Curso 'Tecnologías geoespaciales, entre ellas los Sistemas de Información Geográfica (SIG), nivel intermedio-básico', junio 2025"
+subtitle: "Portal del curso"
 author: "José Martínez"
 abstract: 
 output:
@@ -43,7 +44,7 @@ org_name <- basename(dirname(repo_url))
 rmd_filename <- tools::file_path_sans_ext(basename(knitr::current_input()))
 github_pages_url_general <- paste0("https://", org_name, ".github.io/", repo_name, "/")
 github_pages_url <- paste0("https://", org_name, ".github.io/", repo_name, "/", rmd_filename, ".html")
-github_md_url <- paste0('https://github.com/geofis/curso-maepc-202501/blob/main/')
+github_md_url <- paste0('https://github.com/geofis/curso-tg-junio-2025/blob/main/')
 ```
 
 ```{r, results='asis', echo=F}
@@ -54,6 +55,26 @@ if (grepl('gfm', output_format)) {
 }
 ```
 
+
+![Código QR para acceder a este portal](qr.jpg)
+
+## Formulario
+
+Por favor, completa [este formulario](https://docs.google.com/forms/d/e/1FAIpQLSd2RrLAMLmaSsdamjWpMtbJFcVYMshViq6UKPw6qdq-ie5xAQ/viewform?usp=dialog).
+
+## Calendario de oferta de formación continua
+
+Visita [este calendario](https://calendar.google.com/calendar/u/0/embed?src=c_e2675d36ebc399b645ea939b0bfdf0156c9ed9c8805219cd1cc0ef07b82d141f@group.calendar.google.com&ctz=America/Santo_Domingo), por si te interesa la oferta de formación que ofreceré durante este verano.
+
+## Autopresentación
+
+- Nombres, apellidos.
+
+- Formación y/o área profesional.
+
+- Municipio de residencia.
+
+- Una expectativa del curso.
 
 # Presentaciones de diapositivas incluidas en este repo y otros materiales:
 
@@ -77,17 +98,17 @@ if (grepl('gfm', output_format)) {
 
 - [Obtención de datos geoespaciales desde la nube](`r paste0(github_pages_url_general, 'media/obtencion-de-datos-geoespaciales-desde-la-nube.html')`)
 
-- [Análisis espacial (1). Introducción](`r paste0(github_pages_url_general, 'media/analisis-espacial-01.html')`)
+<!-- - [Análisis espacial (1). Introducción](`r paste0(github_pages_url_general, 'media/analisis-espacial-01.html')`) -->
 
-- [Análisis espacial (2). Interpolación y geoestadística](`r paste0(github_pages_url_general, 'media/analisis-espacial-02.html')`)
+<!-- - [Análisis espacial (2). Interpolación y geoestadística](`r paste0(github_pages_url_general, 'media/analisis-espacial-02.html')`) -->
 
-- [Análisis espacial (3). Interpolación y geoestadística. Demo con datos puntuales](`r paste0(github_md_url, 'media/analisis-espacial-02-demo-con-datos-puntuales.md')`)
+<!-- - [Análisis espacial (3). Interpolación y geoestadística. Demo con datos puntuales](`r paste0(github_md_url, 'media/analisis-espacial-02-demo-con-datos-puntuales.md')`) -->
 
-- [Análisis espacial (4). Autocorrelación espacial](`r paste0(github_md_url, 'media/analisis-espacial-03.md')`)
+<!-- - [Análisis espacial (4). Autocorrelación espacial](`r paste0(github_md_url, 'media/analisis-espacial-03.md')`) -->
 
-- [Análisis espacial (5). Autocorrelación espacial. Demo de autocorrelación con datos ecológicos](`r paste0(github_md_url, 'media/analisis-espacial-03-demo-con-datos-ecologicos.md')`)
+<!-- - [Análisis espacial (5). Autocorrelación espacial. Demo de autocorrelación con datos ecológicos](`r paste0(github_md_url, 'media/analisis-espacial-03-demo-con-datos-ecologicos.md')`) -->
 
-- [Recapitulando](`r paste0(github_pages_url_general, 'media/recapitulando.html')`)
+<!-- - [Recapitulando](`r paste0(github_pages_url_general, 'media/recapitulando.html')`) -->
 
 ***
 
@@ -97,7 +118,7 @@ if (grepl('gfm', output_format)) {
 
 ### Objetivo general
 
-Capacitar en el análisis geoespacial utilizando lenguajes de programación para resolver problemas y proyectos en diferentes contextos académicos y profesionales.
+Capacitar en tecnologías geoespaciales utilizando lenguajes de programación para resolver problemas y proyectos en diferentes contextos académicos y profesionales.
 
 ### Objetivos específicos
 
@@ -105,21 +126,21 @@ Capacitar en el análisis geoespacial utilizando lenguajes de programación para
 
 - Familiarizarse con el entorno de programación R y otros lenguajes, y sus capacidades para el análisis estadístico y geoespacial.
 
-- Dominar las técnicas básicas de manipulación y visualización de datos geoespaciales.
+- Introducirse a las técnicas básicas de manipulación y visualización de datos geoespaciales.
 
-- Aprender a utilizar QGIS como una herramienta para la visualización, análisis y edición de datos geoespaciales.
+- Aprender---o reforzar sobre---el uso básico de QGIS como una herramienta para la visualización, análisis y edición de datos geoespaciales.
 
 - Explorar el uso de algoritmos de inteligencia artificial y aprendizaje automático en el análisis de datos geoespaciales.
 
-- Integrar técnicas de inteligencia artificial con R y QGIS para la automatización de procesos y la mejora del análisis geoespacial.
+<!-- - Integrar técnicas de inteligencia artificial con R y QGIS para la automatización de procesos y la mejora del análisis geoespacial. -->
 
 - Aplicar los conocimientos adquiridos en proyectos prácticos que involucren la manipulación, análisis y visualización de datos geoespaciales utilizando R, QGIS y herramientas de inteligencia artificial.
 
-- Desarrollar habilidades para interpretar y comunicar los resultados obtenidos mediante el análisis geoespacial utilizando herramientas computacionales.
+<!-- - Desarrollar habilidades para interpretar y comunicar los resultados obtenidos mediante el análisis geoespacial utilizando herramientas computacionales. -->
 
-- Fomentar la capacidad de trabajar de manera colaborativa en proyectos de análisis geoespacial utilizando herramientas y metodologías adecuadas.
+<!-- - Fomentar la capacidad de trabajar de manera colaborativa en proyectos de análisis geoespacial utilizando herramientas y metodologías adecuadas. -->
 
-- Adquirir una comprensión crítica de las limitaciones y desafíos asociados con el análisis geoespacial con apoyo de inteligencia artificial, así como las posibles aplicaciones futuras de estas técnicas.
+<!-- - Adquirir una comprensión crítica de las limitaciones y desafíos asociados con el análisis geoespacial con apoyo de inteligencia artificial, así como las posibles aplicaciones futuras de estas técnicas. -->
 
 ### Contenido
 
@@ -159,9 +180,21 @@ Capacitar en el análisis geoespacial utilizando lenguajes de programación para
 - Exploración de casos de estudio reales que utilizan análisis geoespacial y herramientas de inteligencia artificial
 - Aplicaciones prácticas en diversos campos como medio ambiente, urbanismo, salud pública, etc.
 
+```{r}
+proyectos <- read.csv("proyectos/proyectos-curso-tg-enero-2025.csv")
+kableExtra::kable(proyectos)
+```
+
+![](media/resultados-votacion.jpg)
+
+![](media/resultados-votacion-1.jpg)
+
+
+![](media/resultados-votacion-2.jpg)
+
 **Conclusiones y perspectivas futuras**
 
-- Recapitulación de los conceptos clave aprendidos
+- Resumen de los conceptos clave aprendidos
 - Discusión sobre desafíos y oportunidades en el análisis geoespacial con inteligencia artificial
 - Exploración de tendencias y avances futuros en el campo
 
